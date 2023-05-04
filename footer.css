@@ -1,0 +1,36 @@
+.footer {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    bottom: 0;
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+    font-size: 25px;
+  }
+  .footer-WRAPPER {
+    margin: 0.5%;
+  }
+  .elevated-socials {
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    margin: 0.5% 5%;
+    color: #E5504F;
+  }
+  .elevate-gen {
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    margin: 0.5% 5%;
+  }
+  @media only screen and (max-width: 600px) {
+    .footer {
+      height: 50px;
+      font-size: 15px;
+    }
+    .elevate-gen {
+      margin: 3.5% 5%;
+    }
+    .elevated-socials {
+      margin: 3.5% 5%;
+    }
+  }
