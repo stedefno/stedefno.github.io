@@ -1,0 +1,15 @@
+.logo-pos {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #000;
+    display: inline-flex;
+}
+.logo-blue {
+    color: #3C78FF;
+}
